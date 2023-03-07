@@ -1,9 +1,9 @@
-const getallproducts=async(req,res)=>
+const getallproducts1=async(req,res)=>
 {
     res.status(200).json({msg: "I am geting all products"})
 };
-const gettesting=async(req,res)=>
+const gettesting1=async(req,res)=>
 {
     res.status(200).json({msg: "I am testing"})
 };
-module.exports={gettesting,getallproducts};
+module.exports={gettesting1,getallproducts1};

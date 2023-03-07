@@ -6,7 +6,22 @@ app.get("/",(req,res)=>
 {
 res.send("hi i am live");
 });
+app.use("/api/user",products_routes);
+app.get("/",(req,res)=>
+{
+res.send("hi i am live");
+});
 app.use("/api/products",products_routes);
+app.get("/",(req,res)=>
+{
+res.send("hi i am live");
+});
+app.use("/api/viewlaptops",products_routes);
+app.get("/",(req,res)=>
+{
+res.send("hi i am live");
+});
+app.use("/api/updatelaptops",products_routes);
 const start=async()=>
 {
     try{
