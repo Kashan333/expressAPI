@@ -15,7 +15,7 @@ const {
     getallproducts3,gettesting3,
 }=require("../controller/deletelaptop");
 const {
-    getallproducts4,gettesting4,
+    getallproducts4,gettesting4,getallproducts44
 }=require("../controller/updatelaptop");
 
 
@@ -28,6 +28,7 @@ router.route("/viewall").get(gettesting2);
 router.route("/del").get(getallproducts3);
 router.route("/delall").get(gettesting3);
 router.route("/update").get(getallproducts4);
+router.route("/updateagain").get(getallproducts44);
 router.route("/updateall").get(gettesting4);
 module.exports = router;
 
