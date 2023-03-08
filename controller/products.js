@@ -1,6 +1,6 @@
 const getallproducts1=async(req,res)=>
 {
-    res.status(200).json({msg: "I am geting all products"})
+    res.status(200).json({msg: "ALL products"})
 };
 const gettesting1=async(req,res)=>
 {

@@ -8,6 +8,6 @@ const gettesting4=async(req,res)=>
 };
 const getallproducts44=async(req,res)=>
 {
-    res.status(200).json({msg: "updating laptops again"})
+    res.status(200).json({msg: "modifying laptops again"})
 };
 module.exports={gettesting4,getallproducts4,getallproducts44};
